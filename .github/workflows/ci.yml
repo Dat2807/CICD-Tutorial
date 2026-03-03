@@ -31,4 +31,5 @@ jobs:
 
       - name: Build
         run: npm run build
+          env: DATABASE_URL: postgres://postgres:123456@localhost:5432/todo_app
 
